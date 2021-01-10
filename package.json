@@ -1,0 +1,28 @@
+{
+  "name": "graphql-ts-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaan18/graphql-ts-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amaan18/graphql-ts-server/issues"
+  },
+  "homepage": "https://github.com/Amaan18/graphql-ts-server#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
